@@ -1,0 +1,23 @@
+{
+  "name": "Kscllg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elrekke/Kscllg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elrekke/Kscllg/issues"
+  },
+  "homepage": "https://github.com/elrekke/Kscllg#readme",
+  "devDependencies": {
+    "gulp": "^4.0.1"
+  }
+}
