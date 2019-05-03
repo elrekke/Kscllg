@@ -19,5 +19,9 @@
   "homepage": "https://github.com/elrekke/Kscllg#readme",
   "devDependencies": {
     "gulp": "^4.0.1"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-series": "^1.0.2"
   }
 }
