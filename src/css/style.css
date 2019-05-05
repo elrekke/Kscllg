@@ -1,11 +1,27 @@
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
 .navbar {
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-block {
+  margin-left: 115px;
+}
+
+.block__subtitle {
   color: #858585;
   font-family: "Arial MT";
   font-size: 10px;
@@ -13,10 +29,89 @@
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  text-align: center;
 }
 
-.container {
-  width: 1170px;
-  margin: auto;
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__text {
+  color: #474747;
+  font-family: "PT Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+
+.contacts__tel {
+  margin-right: 10px;
+  color: #d34272;
+  font-family: "PT Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 10px 10px;
+}
+
+.main {
+  position: relative;
+}
+
+.main__green {
+  background-color: #1dbb90;
+}
+
+.main__pink {
+  background-color: #d34272;
+  height: 30px;
+  width: 100%;
+}
+
+.main-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 700px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+}
+
+.main-title {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31);
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.21px;
+}
+
+.main-subtitle {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.33);
+  color: #474747;
+  font-family: "PT Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.main-img {
+  position: absolute;
+  padding: 50px 50px;
 }
 /*# sourceMappingURL=style.css.map */
