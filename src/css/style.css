@@ -71,8 +71,10 @@
 }
 
 .main__pink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #d34272;
-  height: 30px;
   width: 100%;
 }
 
@@ -82,7 +84,7 @@
   display: flex;
   padding-left: 700px;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -113,5 +115,41 @@
 .main-img {
   position: absolute;
   padding: 50px 50px;
+}
+
+.button__green {
+  text-decoration: none;
+  width: 218px;
+  background-color: #1dbb90;
+  margin-left: 700px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31);
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 10px;
+  height: 30px;
+}
+
+.button__gray {
+  text-decoration: none;
+  padding-top: 10px;
+  width: 139px;
+  height: 30px;
+  background-color: #474747;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31);
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
